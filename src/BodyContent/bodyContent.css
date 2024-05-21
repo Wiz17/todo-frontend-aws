@@ -1,0 +1,59 @@
+.todoButtons{
+    padding:6px;
+    border:1px solid #ff0000;
+    border-radius:3px;
+    background-color:white;
+    color:#ff0000;
+    margin:5px 5px 5px 0;
+    cursor:pointer;
+
+}
+.todoButtons:hover{
+    padding:6px;
+    border:1px solid #ff0000;
+    border-radius:3px;
+    background-color:#ff0000;
+    color:white;
+    margin:5px 5px 5px 0;
+    cursor:pointer;
+
+
+}
+.todo{
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+}
+.completed{
+    padding: 8px;
+    border: 1px solid #2cc424;
+    border-radius: 3px;
+    color: #2cc424;
+}
+.inProgress{
+    padding: 8px;
+    border: 1px solid #dfee07;
+    border-radius: 3px;
+    color: #dfee07;
+}
+@media all and (min-width: 150px) and (max-width: 600px) {
+
+    .headerTodo{
+        width:90%
+    }
+}
+@media all and (min-width: 601px){
+    .headerTodo{
+        width:70%
+    }
+    .headerTodo2{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+}
+.toast-message{
+    /* width: 35vw; */
+    
+}
