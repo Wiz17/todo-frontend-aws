@@ -217,6 +217,7 @@ const BodyContent = () => {
         } catch (error) {
           // Error is caught silently without logging
           setExpiredStatus(false); // Token is expired
+          window.location.href = "/";
         }
       } else {
         setExpiredStatus(false);
